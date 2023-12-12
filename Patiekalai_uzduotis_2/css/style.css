@@ -1,0 +1,254 @@
+.container{    
+    font-family: 'Poppins', sans-serif;
+    height: 100%;    
+}
+
+.navbar{
+    margin: 10% 0;
+}
+
+.navbar, .navbar2{
+    background-color: #F8F8F8;
+}
+
+.navbar img{
+    width: 80px;
+    height: auto;
+}
+
+.search{
+    background-color: #F8F8F8;
+    border-radius: 40px;
+    margin: 10% 0;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px #ebe7e7;
+}
+.search img{
+    width: 30px;
+    height: auto; 
+}
+
+.form-control{
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    background-color: #F8F8F8;    
+
+}
+
+.category{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-family: Poppins;
+}
+
+.category h2{
+       padding: 10px;
+       font-family: 'Poppins', sans-serif;        
+       color: #752A00;    
+}
+
+.category button{
+    background-color: rgb(243, 212, 203);
+    color: #FE784E;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: center;    
+}
+
+.cards{  
+    margin: 25px 15px 15px 15px;
+}
+
+#cards-bord{
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 40px;    
+    overflow: hidden ;
+    width: 45%;    
+    padding-right: 0%;
+    padding-left: 0%;    
+    margin: 15px;
+    box-shadow: 5px 5px 5px 8px #ebe7e7;
+}
+
+.card-head{
+    margin: 10px 5px;
+    padding: 8px;
+}
+
+.card-head h4{
+    line-height: 1.9;       
+}
+
+.card-head p{
+    opacity: 0.8;
+}
+
+.star{
+    width: 25px;
+    height: 25px;   
+
+}
+
+.cards li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+ .listas img{
+    width: 4px;
+    height: 4px;
+ }
+
+ .heart{  
+    position: absolute;
+    top: 0px;
+    right: 0px;    
+ }
+
+ .img-heart{
+    width: 100px;
+    height: auto;
+ }
+
+ footer{    
+    padding: 0px 21px;
+    border-radius: 40px 40px 0px 0px;
+    box-shadow:  -1px -3px 6px 2px #ebe7e7;
+    position: fixed;
+    left: 0;   
+    bottom: 0;
+    width: 100%;     
+    background-color: #FFFFFF;     
+ }
+
+ footer li{
+    display: inline-block;
+    text-decoration: none;   
+    margin: 15px; 
+ }
+
+ footer img{
+    width: 100px;
+    height: auto;
+    margin: 10px 45px;   
+ }
+
+    /*kitas html index2*/
+.circle-container{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.round-heart img{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 60%;
+
+}
+
+.card{
+    margin: 35px 10px;
+    background: linear-gradient(to left, #F89B29 7.84%, #FF0F7B 112.76%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+
+.card button{
+    background-color: #FFFFFF;
+    
+    padding: 10px 15px;
+    margin: 20px;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 400;     
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-align: center; 
+}
+
+.card p{
+    background: linear-gradient(to left, #F89B29 7.84%, #FF0F7B 112.76%);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+}
+
+.card h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.01em;      
+}
+
+.ingredients button{   
+    border: none;
+    padding: 45px 50px;
+    margin: 10px;
+    border-radius: 16px;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-align: left;        
+
+}
+
+.ingredients button:nth-child(1){ /*kazkodel neiseina tik vienam padaryti*/
+    background-color: #FF6433;
+    color:#FFFFFF;
+
+}
+
+.ingredients a:nth-child(2){
+    background-color: rgb(243, 212, 203);
+    color: #FE784E;
+}
+
+.items{
+    margin: 65px 10px;
+}
+.items h2{
+    font-size: 48px;
+    margin: 35px 5px;
+}
+
+.items p{
+    font-size: 32px;
+    color: #FF5C00;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.items-list{
+    background-color: #fcc4a3;
+    margin: 10px;
+    border-radius: 16px;
+    padding: 0px;  
+}
+
+.items img{
+    width: 100px;
+    height: auto;
+}
